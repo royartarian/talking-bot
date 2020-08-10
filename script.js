@@ -151,3 +151,4 @@ async function getJokes() {
 // Event Listeners 
     button.addEventListener('click', getJokes);
     audioElement.addEventListener('ended', toggleButton);    
+audioElement.addEventListener('touchstart', getJokes);
