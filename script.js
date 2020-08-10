@@ -109,7 +109,7 @@ const VoiceRSS = {
 // Passing Joke to VoiceRSS API
 function tellMe(joke) {
   VoiceRSS.speech({
-    key: config.API_KEY,
+    key: 'dfb831372a3949b7826f479096295196',
     src: joke,
     hl: "en-us",
     v: "Linda",
