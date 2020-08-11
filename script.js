@@ -113,7 +113,11 @@ function tellMe(joke) {
     hl: "en-us",
     v: "Linda",
     r: 0,
+<<<<<<< HEAD
     c: "WAV",
+=======
+    c: "AAC",
+>>>>>>> parent of d1aa90f... Revert "ios support"
     f: "44khz_16bit_stereo",
     ssml: false
   });
