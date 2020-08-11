@@ -117,7 +117,6 @@ function tellMe(joke) {
     f: "44khz_16bit_stereo",
     ssml: false
   });
-  joke.play();
 }
 
 // Disable/Enable Tell me a joke Button
@@ -150,6 +149,4 @@ async function getJokes() {
 
 // Event Listeners
 button.addEventListener("click", getJokes);
-button.addEventListener('onclick', getJokes);
 audioElement.addEventListener("ended", toggleButton);
-audioElement.addEventListener("touchstart", getJokes);
