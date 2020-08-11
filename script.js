@@ -118,7 +118,7 @@ function tellMe(joke) {
     ssml: false
   });
 
-  audioElement.play();
+  joke.play();
 }
 
 // Disable/Enable Tell me a joke Button
