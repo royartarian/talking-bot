@@ -1,4 +1,3 @@
-
 const button = document.getElementById("button");
 const audioElement = document.getElementById("audio");
 
@@ -120,10 +119,10 @@ function tellMe(joke) {
   });
 }
 
-// Disable/Enable Tell me a joke Button 
+// Disable/Enable Tell me a joke Button
 
 function toggleButton() {
-    button.disabled = !button.disabled;
+  button.disabled = !button.disabled;
 }
 // Get Jokes from Joke API
 async function getJokes() {
@@ -138,7 +137,7 @@ async function getJokes() {
     } else {
       joke = data.joke;
     }
-    // Text-to-Speech 
+    // Text-to-Speech
     tellMe(joke);
     // Disable Button
     toggleButton();
@@ -148,7 +147,7 @@ async function getJokes() {
   }
 }
 
-// Event Listeners 
-    button.addEventListener('click', getJokes);
-    audioElement.addEventListener('ended', toggleButton);    
-audioElement.addEventListener('touchstart', getJokes);
+// Event Listeners
+button.addEventListener("click", getJokes);
+audioElement.addEventListener("ended", toggleButton);
+audioElement.addEventListener("touchstart", getJokes);
