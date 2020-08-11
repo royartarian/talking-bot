@@ -117,8 +117,6 @@ function tellMe(joke) {
     f: "44khz_16bit_stereo",
     ssml: false
   });
-
-  joke.play();
 }
 
 // Disable/Enable Tell me a joke Button
