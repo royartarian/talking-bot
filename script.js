@@ -113,7 +113,7 @@ function tellMe(joke) {
     hl: "en-us",
     v: "Linda",
     r: 0,
-    c: "AAC",
+    c: "WAV",
     f: "44khz_16bit_stereo",
     ssml: false
   });
